@@ -1,5 +1,5 @@
-const nameOfUser = prompt("Quel est votre nom ?");
+const visitorName = prompt("Quel est votre nom ?");
 
 const title = document.querySelector('.title');
 
-title.innerHTML = `Hello, ${nameOfUser} !`;
+title.innerHTML = `Hello, ${visitorName} !`;
